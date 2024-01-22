@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Release"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="scrloader.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="21" Y="57"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="scrloader_tools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35" Y="12"/>
+        <UsageCount Value="49"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="util\KAZip.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="12"/>
+        <UsageCount Value="30"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="micrortl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos Y="41"/>
+        <UsageCount Value="37"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="bbloader.lpr"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uTsh2exe.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="66" Column="38" TopLine="47"/>
+      </Position1>
+      <Position2>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="55" Column="23" TopLine="47"/>
+      </Position2>
+      <Position3>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="56" Column="24" TopLine="41"/>
+      </Position3>
+      <Position4>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="63" Column="5" TopLine="47"/>
+      </Position4>
+      <Position5>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="70" Column="4" TopLine="47"/>
+      </Position5>
+      <Position6>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="69" Column="5" TopLine="57"/>
+      </Position6>
+      <Position7>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="61" Column="28" TopLine="60"/>
+      </Position7>
+      <Position8>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="74" Column="25" TopLine="55"/>
+      </Position8>
+      <Position9>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="61" Column="19" TopLine="55"/>
+      </Position9>
+      <Position10>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="74" Column="26" TopLine="55"/>
+      </Position10>
+      <Position11>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="61" Column="35" TopLine="55"/>
+      </Position11>
+      <Position12>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="46" Column="14" TopLine="43"/>
+      </Position12>
+      <Position13>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="63" Column="61" TopLine="54"/>
+      </Position13>
+      <Position14>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="73" Column="24" TopLine="55"/>
+      </Position14>
+      <Position15>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="83" Column="23" TopLine="71"/>
+      </Position15>
+      <Position16>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="56" Column="21" TopLine="37"/>
+      </Position16>
+      <Position17>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="70" Column="3" TopLine="52"/>
+      </Position17>
+      <Position18>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="56" Column="31" TopLine="37"/>
+      </Position18>
+      <Position19>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="56" Column="17" TopLine="37"/>
+      </Position19>
+      <Position20>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="55" Column="6" TopLine="37"/>
+      </Position20>
+      <Position21>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="56" Column="33" TopLine="37"/>
+      </Position21>
+      <Position22>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="55" Column="4" TopLine="37"/>
+      </Position22>
+      <Position23>
+        <Filename Value="scrloader.lpr"/>
+        <Caret Line="53" Column="25" TopLine="40"/>
+      </Position23>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

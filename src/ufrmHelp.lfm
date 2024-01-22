@@ -1,0 +1,114 @@
+object frmHelp: TfrmHelp
+  Left = 600
+  Height = 410
+  Top = 283
+  Width = 678
+  BorderStyle = bsDialog
+  Caption = 'sh2exe --help'
+  ClientHeight = 410
+  ClientWidth = 678
+  Position = poMainFormCenter
+  LCLVersion = '1.6.0.4'
+  object Memo1: TMemo
+    Left = 0
+    Height = 410
+    Top = 0
+    Width = 678
+    Align = alClient
+    Color = clBlack
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clSilver
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'sh2exe'
+      '======'
+      ''
+      'What is this'
+      '------------'
+      ''
+      'This program packs a shell script into an executable file along with Busybox to'
+      'interpret it. So the script can run in any Windows machine, having it a version'
+      'of bash or not.'
+      ''
+      'The program allows to extract the embedded Busybox builds to a directory defined'
+      'by the user, so is possible to write and test scripts under this external'
+      'environment prior to convert it to executable.'
+      ''
+      'This program is written in Lazarus.'
+      ''
+      'How to use'
+      '----------'
+      ''
+      'Just click on the plus icon and add files on the list, you can add how many'
+      'files you want. You will need a "main.sh" file, this is the main script that the'
+      'system will run. Without "main.sh", the program will not generate the EXE.'
+      ''
+      'If you choose to use Cygwin as interpreter, make sure to convert the EOL to UNIX'
+      'format, Cygwin do not accept CRLF. Use dos2unix on these files.'
+      ''
+      'There is no need to compact the files you want together with the script, the'
+      'program will pack everything into one single zip file.'
+      ''
+      'The generated executable also accepts parameters on the command line and pass to'
+      'your script file, some rules:'
+      ''
+      'If you need to pass some parameter with spaces, always use double quotes, e.g.,'
+      '"C:\Program Files". Do not use the UNIX notation C:\Program\ Files, it will not'
+      'work at the loading time. For convenience, the program automatically converts'
+      'backslashes in forward slashes, so if you pass a parameter "c:\a\b\c" the script'
+      'will receive "c:/a/b/c". This is useful for the Win32 MinGW build of Busybox.'
+      'The program is not very smart and converts every \ to /, so don''t create a weird'
+      'parameter on your script like "\d", as it will receive "/d".'
+      ''
+      'Avoid to include another executables together with main.sh, anti-virus software'
+      'usually gets angry with too much EXE activity in %TMP%.'
+      ''
+      'How it works'
+      '------------'
+      ''
+      'sh2exe generates a loader executable with Busybox and your selected files in a'
+      'zip pack stored as resources in the loader. When called, the loader extracts'
+      'these resources to %TMP%\busyboxtmp(random number), e.g. busyboxtmp8636. Then it'
+      'starts busybox, unpack the zipped file and calls the main.sh script. The program'
+      'deletes the temporary directory when it closes, so do not store anything there!'
+      ''
+      'The system also creates some useful environment variables:'
+      'S2E_BUSYBOX  - The build of Busybox in use (Cygwin or Win32 MinGW)'
+      'S2E_STARTDIR - The directory where the executable was called'
+      'S2E_EXENAME  - The name of the executable'
+      'HOME         - The home directory and the path where your stuff is unpacked'
+      ''
+      'Differences between Win32 MinGW and Cygwin builds of Busybox'
+      ''
+      'Win32 MinGW build:'
+      '- Everything is unpacked under %TMP%\busyboxtmp, this is also set as your home'
+      '  directory.'
+      '- It is more likely Windows, one example is to change the current drive. If you'
+      '  want to go to D:, type "cd d:"'
+      '- Besides being small, it is very powerful and contains a good set of tools,'
+      '  like awk.'
+      '- For usual scripting, it is very good.'
+      ''
+      'Cygwin build'
+      '- It is more likely UNIX. It will create a UNIX standard tree under'
+      '  %TMP%/busyboxtmp and use this as root filesystem.'
+      '- The main.sh and other files will be available under /home. The system is'
+      '  configured to use this as home, instead of standard Cygwin behavior'
+      '  "/home/windows_user_name".'
+      '- For who is not used to Cygwin, the system drives are available under'
+      '  /cygdrive/driveleter, e.g. C: is /cygdrive/c'
+      '- It is more powerful than the Win32 MinGW build, but requires an executable'
+      '  very large. So it is for a more specific usage.'
+      ''
+      'The program contains a sample script that gives access to the shell, try both'
+      'builds and see the differences.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+end

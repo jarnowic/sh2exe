@@ -1,0 +1,7 @@
+RES_BUSYBOX   RCDATA "resources/busybox.exe"
+RES_BBCYG     RCDATA "resources/busybox_cygwin.exe"
+RES_SCRLOADER RCDATA "resources/scrloader.exe"
+RES_SAMPLE    RCDATA "resources/sample.zip"
+RES_BBLOADER  RCDATA "resources/bbloader.exe"
+RES_BBINIT    RCDATA "resources/bbinit.sh"
+RES_READMEBB  RCDATA "resources/readme_bbloader.txt"

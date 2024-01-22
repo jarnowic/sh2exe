@@ -1,0 +1,23 @@
+object frmWait: TfrmWait
+  Left = 656
+  Height = 66
+  Top = 515
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'frmWait'
+  ClientHeight = 66
+  ClientWidth = 320
+  FormStyle = fsStayOnTop
+  Position = poMainFormCenter
+  LCLVersion = '1.6.0.4'
+  Visible = True
+  object pnlWait: TPanel
+    Left = 0
+    Height = 66
+    Top = 0
+    Width = 320
+    Align = alClient
+    Caption = 'Please wait, compressing files'
+    TabOrder = 0
+  end
+end

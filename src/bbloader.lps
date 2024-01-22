@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Release"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="bbloader.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="48" Y="32"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="scrloader_tools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="42" Column="37" TopLine="34"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="81" Column="2" TopLine="45"/>
+      </Position2>
+      <Position3>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="43" Column="12" TopLine="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="50" TopLine="16"/>
+      </Position4>
+      <Position5>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="51" Column="61" TopLine="18"/>
+      </Position5>
+      <Position6>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="54" Column="12" TopLine="18"/>
+      </Position6>
+      <Position7>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="51" Column="80" TopLine="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="56" Column="40" TopLine="34"/>
+      </Position8>
+      <Position9>
+        <Filename Value="bbloader.lpr"/>
+        <Caret Line="40" Column="20" TopLine="28"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,17 @@
+sh2exe
+
+There are three projects under src directory:
+
+bbloader.lpi
+scrloader.lpi
+sh2exe.lpi
+
+In order to build sh2exe, you need to build bbloader and scrloader first, they will generate files src\resources\bbloader.exe and src\resources\srcloader.exe. If for any reason the executable isn't generated under the src\resources directory, move the executables there.
+
+The file src\util\unitPEFile.pas do not compile on FPC versions prior to 3.0, so use Lazarus 1.6 to build these sources.
+
+x64 build is not supported at this moment. If you have the x64 Lazarus, download the x86 cross-compiler from sourceforge. 
+
+I'm building these sources with Lazarus 1.6 x86.
+
+No external libraries or components are required to build.
